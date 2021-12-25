@@ -1,0 +1,785 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #fff;
+}
+
+body{
+    position: relative;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+#homeHeader{
+    background-color: #3a464b;
+    background-image: url(../imgs/Guy-at-computer-e1569232215640-1920x720.jpg);
+    background-position: center 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.homeHeader{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 1000px;
+    overflow: hidden;
+}
+
+.logo{
+    float: left;
+    overflow: hidden;
+}
+
+.logo a{
+    display: block;
+    height: 60px;
+    margin-bottom: -10px;
+    margin-left: 25px;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 230px;
+}
+
+.logo a img{
+    height: 50px;
+}
+
+.navigation-menu{
+    float: right;
+    overflow: hidden;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.navigation-menu ul{
+    list-style: none;
+    overflow: hidden;
+}
+
+.navigation-menu ul li{
+    float: left;
+    margin-left: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.navigation-menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.4em;
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.navigation-menu ul li a:hover{
+    background-color:#1abc9c ;
+    border-radius: 5px;
+}
+
+#signin{
+    background-color: #1abc9c;
+    border-radius: 5px;
+}
+
+.slider {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 13px;
+    overflow: hidden;
+    float: left;
+    padding-right: 20px;
+}
+
+.slideText {
+    overflow: hidden;
+    width: 725px;
+}
+
+.slider span {
+    font-size: 3.5em;
+    font-weight: 500;
+    color: #fff;
+    display: block;
+}
+
+.slider p {
+    font-size: 2em;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.slider a {
+    background-color: #1abc9c;
+    border: medium none;
+    border-radius: 25px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 1.7em;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    width: 250px;
+}
+
+.slider a:hover {
+    background-color: #17a68a;
+}
+
+.storesOutline.wrapper {
+    margin-bottom: 0;
+}
+
+.storesOutline {
+    text-align: center;
+}
+
+
+.wrapper {
+    margin: 25px auto;
+    width: 1000px;
+    position: relative;
+}
+
+#temp{
+    margin-top: -30px ;
+}
+
+.storesOutline a {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius:20px;
+    height: 49px;
+    transition: all ease-in 100ms;
+    position: relative;
+}
+
+a {
+    outline: none;
+}
+
+.storesOutline a div {
+    border-radius: 20px;
+    height: 49px;
+}
+
+
+
+.homeGooglePlay img{
+    height: 50px;
+    width: 150px; 
+    filter: drop-shadow(0 3px 8px rgba(0, 0, 0,.25));
+    border-radius: 10px;
+}
+
+.homeAppStore img{
+    height: 50px;
+    width: 150px;
+    filter: drop-shadow(0 3px 8px rgba(0, 0, 0,.25));
+    border-radius: 10px;
+}
+
+.homeWeb img{
+    height: 56px;
+    width: 150px;
+    filter: drop-shadow(0 3px 8px rgba(0, 0, 0,.25));
+}
+
+.wrapper:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.homeCourseContent.wrapper {
+    margin-top: 0;
+}
+
+.homeCourseContent {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.wrapper {
+    margin: 25px auto;
+    width: 1000px;
+    position: relative;
+}
+
+.block.noPadding {
+    padding: 0;
+}
+
+.courseItem {
+    float: left;
+    margin: 0 1.5% 25px;
+    overflow: hidden;
+    width: 47%;
+}
+
+.block {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+}
+
+.courseItem a {
+    overflow: hidden;
+    display: block;
+    text-decoration: none;
+    padding: 20px 20px 0;
+}
+
+.courseIcon {
+    float: left;
+    overflow: hidden;
+    width: 89px;
+    border-radius: 45px;
+    display: block;
+    margin-right: 35px;
+}
+
+.homeCourseContent .courseIcon {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+
+img {
+    border: none;
+}
+
+.homeCourseContent .courseDescription {
+    margin-top: 10px;
+}
+
+.courseDescription {
+    overflow: hidden;
+}
+
+.courseDescription div, .courseDescription h1 {
+    font-weight: 700;
+    font-size: 2em;
+    color: #000;
+}
+
+.courseDescription p {
+    font-size: 1.35em;
+    line-height: 1.7;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #3a464b;
+}
+
+.homeCourseContent .courseStores {
+    text-align: center;
+    margin-right: 0;
+}
+
+.courseStores {
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+    margin-right: 15px;
+}
+
+.homeCourseContent .courseStores a {
+    width: auto;
+    padding: 10px 20px;
+}
+
+.courseStores a {
+    background-color: #1abc9c;
+    border: medium none;
+    border-radius: 20px;
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    width: 70px;
+    text-align: center;
+    font-size: 1.4em;
+    cursor: pointer;
+}
+
+.homeCourseContent .courseItem {
+    width: 30%;
+    margin-top: 25px;
+}
+
+.homeCourseContent .block {
+    box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 3px rgba(0,0,0,.45);
+}
+
+.block.noPadding {
+    padding: 0;
+}
+
+.block {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+}
+
+.viewAll {
+    color: #1abc9c;
+    text-decoration: none;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+#storeInfo {
+    overflow: hidden;
+    background: linear-gradient(180deg,#414e53 70%,#3a464b 30%);
+}
+
+.storeInfoContent {
+    overflow: hidden;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.usersInfo {
+    margin-bottom: 30px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.usersInfo div {
+    display: inline-block;
+}
+
+.usersInfo p {
+    float: left;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #d6d6d6;
+    font-size: 1.7em;
+}
+
+.usersInfo span {
+    font-weight: bold;
+    font-size: 2em;
+    color: #8bc34a;
+}
+
+.topInfo {
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.phoneImg {
+    float: left;
+    overflow: hidden;
+    margin-left: 20px;
+    width: 400px;
+}
+
+.phoneImg img{
+    height: 243px;
+    width: 400px;
+}
+
+img {
+    border: none;
+}
+
+.mainInfo {
+    float: right;
+    overflow: hidden;
+    margin-right: 65px;
+}
+
+.infoTitle span {
+    font-weight: bold;
+    color: #fff;
+    font-size: 2.4em;
+}
+
+.infoTitle p {
+    color: #d6d6d6;
+    font-size: 1.5em;
+    line-height: 1.8;
+    margin-top: 10px;
+    width: 450px;
+}
+
+#reviews {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.reviewTitle {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.reviewTitle p {
+    font-size: 2.3em;
+    margin-bottom: 10px;
+}
+
+.reviewTitle span {
+    font-size: 1.7em;
+}
+
+.reviewTitle span span {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.socialIcons {
+    padding-bottom:10px ;
+    float: none;
+    margin: 20px auto 15px;
+    overflow: hidden;
+    text-align: center;
+    width: 165px;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 30px;
+    color: #414E53;
+    width: 40px;
+    height: 40px;
+}
+
+.socialIcons a:hover{
+    color: rgb(36,170,152);
+}
+
+.facebook {
+    background-position: 7px -55px!important;
+}
+
+.twitter {
+    background-position: -80px -55px!important;
+}
+
+.instagram {
+    background-position: -160px -56px!important;
+}
+
+.reviewsContent {
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    width: 1000px;
+    text-align: center;
+}
+
+.review.left {
+    float: left;
+    margin-left: 15px;
+}
+
+.review {
+    overflow: hidden;
+    display: inline-block;
+    width: 30%;
+}
+
+.reviewText {
+    position: relative;
+    border: 2px solid #e2e2e2;
+    padding: 25px;
+    min-height: 135px;
+}
+
+.reviewText:hover {
+    border-color: #24aa98;
+}
+
+.reviewText:hover::before {
+    border-color: rgba(36,170,152,0);
+    border-top-color: #24aa98;
+}
+
+.reviewText:hover::after {
+    border-color: rgba(36,170,152,0);
+    border-top-color: #fff;
+}
+
+.reviewText::after, .reviewText::before {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.reviewText::before {
+    border-color: rgba(226,226,226,0);
+    border-top-color: #e2e2e2;
+    border-width: 18px;
+    margin-left: -18px;
+}
+
+
+
+.reviewText p {
+    font-size: 1.4em;
+    text-align: left;
+}
+
+.reviewText::after {
+    border-color: rgba(226,226,226,0);
+    border-top-color: #fff;
+    border-width: 15px;
+    margin-left: -15px;
+}
+
+
+
+.reviewInfo {
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+.reviewUserAvatar {
+    border-radius: 25px;
+    overflow: hidden;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.reviewUser {
+    overflow: hidden;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.reviewUserName {
+    font-weight: bold;
+    font-size: 1.35em;
+    color: #383737;
+}
+
+.reviewUserLoaction {
+    margin-top: 5px;
+}
+
+.reviewUserLoaction span {
+    color: #b4bbc2;
+    font-size: 1.2em;
+}
+
+.review.right {
+    float: right;
+    margin-right: 15px;
+}
+
+#footer {
+    width: 100%;
+    background-color: #eaedf1;
+    overflow: hidden;
+}
+
+.footerTitle {
+    width: 100%;
+    background-color: #3a464b;
+    overflow: hidden;
+}
+
+.footerTitle p {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.8em;
+    padding: 20px;
+}
+
+#footer .footerContent {
+    margin-bottom: 0;
+}
+
+.socialCounts {
+    float: left;
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+.footerSocial {
+    overflow: hidden;
+    background-color: #fff;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    width: 320px;
+}
+
+.fab{
+    font-size: 37px;
+    padding-top: 20px;
+}
+
+.footerTwitter {
+    background-color: #29c0ac;
+    color: white;
+}
+
+.footerFacebook, .footerGooglePlus, .footerTwitter {
+    float: left;
+    overflow: hidden;
+    width: 80px;
+    height: 80px;
+}
+
+.footerSocial span {
+    color: #b4bbc2;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 2.1em;
+    margin-top: 25px;
+    text-align: center;
+    width: 200px;
+}
+
+.footerFacebook {
+    background-color: #24aa98;
+    color: white;
+}
+
+#footer .about {
+    float: right;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+#footer .about div {
+    margin-bottom: 15px;
+}
+
+.logoFooter {
+    background-position: -12px -8px;
+    width: 200px;
+    height: 55px;
+}
+
+.logoFooter img{
+    width: 200px;
+}
+
+#footer .about p {
+    font-weight: bold;
+    color: #383737;
+    font-size: 1.35em;
+}
+
+#footer .about address {
+    font-weight: 500;
+    color: #b4bbc2;
+    font-size: 1.35em;
+}
+
+#footer .about button {
+    color: #fff;
+    display: block;
+    border: none;
+    text-decoration: none;
+    width: 80px;
+    height: 36px;
+    border-radius: 6px;
+    background-color: #1abc9c;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button, input, textarea {
+    font-family: sans-serif;
+}
+
+.footerMenu {
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    width: 115px;
+}
+
+.footerMenu.Home #footerHome{
+    color: #383737;
+}
+
+.footerMenu ul {
+    list-style: none;
+}
+
+.footerMenu ul li {
+    margin-top: 10px;
+}
+
+.footerMenu ul li a:hover {
+    color: #92989e;
+}
+
+.footerMenu ul li a {
+    font-weight: bold;
+    color: #b4bbc2;
+    font-size: 1.35em;
+    text-decoration: none;
+}
+
+#footer .copyright {
+    text-align: center;
+    color: #555;
+    font-size: 12px;
+    padding: 20px 0;
+}
+
+.copyright a{
+    text-decoration: none;
+}
+
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 9%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}

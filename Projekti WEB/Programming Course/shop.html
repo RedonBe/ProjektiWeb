@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href='css/shop.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+</head>
+<body >
+    <div id="header">
+        <div class="header wrapper">
+            <div class="logo">
+                <a href="home.html">
+                    <img src="imgs/pgcourse.png" alt="">
+                </a>
+            </div>
+            <div class="navigation-menu">
+                <ul class="Dynamic Contact">
+                    <li id="HomeNav">
+                        <a href="home.html">Home</a>
+                    </li>
+                    <li id="CoursesNav">
+                        <a href="courses.html">Courses</a>
+                    </li>
+                    <li id="AboutNav">
+                        <a href="about.html">About Us</a>
+                    </li>
+                    <li id="ContactNav">
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li class="signin">
+                        <a href="login.html">SIGN IN</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper extraLayout">
+        <div class="dynamicPageInfo block">
+            <div id="foto">
+                <img src="" id="img">
+            </div>
+            <div id="titulli">
+            <div id="head-name"></div>
+            <div id="description"></div>
+            <div id="dollar"></div>
+            <button id="bttn">
+                Buy now
+            </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer" data-name="contacts">
+        <div class="footerTitle">
+            <p>Learn Playing. Play Learning</p>
+        </div>
+        <div class="footerContent wrapper">
+            <div class="socialCounts">
+                <a class="footerSocial" href="https://twitter.com" >
+                    <div class="footerTwitter">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <span>@PrgorammingCourse</span>
+                </a>
+                <a class="footerSocial" href="http://www.facebook.com" >
+                    <div class="footerFacebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <span>PrgorammingCourse</span>
+                </a>
+            </div>
+            <div class="about">
+                <div class="logoFooter">
+                    <img src="imgs/logo.png" alt="">
+                </div>
+                <div>
+                    <p>PrgorammingCourse Inc.</p>
+                    <address>
+    <br />Shkabaj
+    <br />10000, Prishtine, Kosovo</address>
+                </div>
+                <button>Email Us</button>
+            </div>
+            <div class="footerMenu Home">
+                <ul>
+                    <li>
+                        <a href="home.html" id="footerHome">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Features</a>
+                    </li>
+                    <li>
+                        <a href="courses.html" id="footerCourses">Courses</a>
+                    </li>
+                    <li>
+                        <a href="about.html" id="footerAbout">About Us</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" id="footerContacts">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#" id="footerPrivacy-Policy">Terms of Use</a>
+                    </li>
+                    <li>
+                        <a href="#" id="faq">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            © 2021 Programming Course, Inc. All rights reserved.<br><a href="https://github.com/RedonBe/ProjektiWeb.git">Repository: Redon Begu, Albin Shabani</a>
+        </div>
+    </div>
+
+    <script>
+        var temp = decodeURIComponent(window.location.search).substring(1).split("&");
+        if(temp=='Python 3 Tutorial'){
+            document.getElementById('head-name').innerHTML='Python 3 Tutorial';
+            document.getElementById('img').src="imgs/1073.png";
+            document.getElementById('description').innerHTML='Python 3: Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, eaque debitis. Non numquam quae blanditiis dicta. Deserunt illo, rerum esse quasi nemo consequuntur doloremque sunt minima repellat quae pariatur expedita.'
+            document.getElementById('dollar').innerHTML='$99.99';
+        } else if(temp=='C++ Course') {
+            document.getElementById('head-name').innerHTML='C++ Course';
+            document.getElementById('img').src="imgs/1051.png";
+            document.getElementById('description').innerHTML='C++ Course: Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, eaque debitis. Non numquam quae blanditiis dicta. Deserunt illo, rerum esse quasi nemo consequuntur doloremque sunt minima repellat quae pariatur expedita. '
+            document.getElementById('dollar').innerHTML='$99.99';
+        } else if(temp=='Java Course'){
+            document.getElementById('head-name').innerHTML='Java Course';
+            document.getElementById('img').src="imgs/1068.png";
+            document.getElementById('description').innerHTML='Java Course: Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, eaque debitis. Non numquam quae blanditiis dicta. Deserunt illo, rerum esse quasi nemo consequuntur doloremque sunt minima repellat quae pariatur expedita.'
+            document.getElementById('dollar').innerHTML='$99.99';
+        }  else if(temp=='JavaScript Course'){
+            document.getElementById('head-name').innerHTML='JavaScript Course';
+            document.getElementById('img').src="imgs/1024.png";
+            document.getElementById('description').innerHTML='JavaScript Course: Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, eaque debitis. Non numquam quae blanditiis dicta. Deserunt illo, rerum esse quasi nemo consequuntur doloremque sunt minima repellat quae pariatur expedita.'
+            document.getElementById('dollar').innerHTML='$99.99';
+        } else if(temp=='Sharp Course'){
+            document.getElementById('head-name').innerHTML='C# Course';
+            document.getElementById('img').src="imgs/1080.png";
+            document.getElementById('description').innerHTML='C# Course: Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, eaque debitis. Non numquam quae blanditiis dicta. Deserunt illo, rerum esse quasi nemo consequuntur doloremque sunt minima repellat quae pariatur expedita.'
+            document.getElementById('dollar').innerHTML='$99.99';
+        }else if(temp=='C Course'){
+            document.getElementById('head-name').innerHTML='C Course';
+            document.getElementById('img').src="imgs/1089.png";
+            document.getElementById('description').innerHTML='C Course: Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, eaque debitis. Non numquam quae blanditiis dicta. Deserunt illo, rerum esse quasi nemo consequuntur doloremque sunt minima repellat quae pariatur expedita.'
+            document.getElementById('dollar').innerHTML='$99.99';
+        }else if(temp=='SQL Fundamentals'){
+            document.getElementById('head-name').innerHTML='SQL Fundamentals';
+            document.getElementById('img').src="imgs/1060.png";
+            document.getElementById('description').innerHTML='SQL Fundamentals: Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, eaque debitis. Non numquam quae blanditiis dicta. Deserunt illo, rerum esse quasi nemo consequuntur doloremque sunt minima repellat quae pariatur expedita.'
+            document.getElementById('dollar').innerHTML='$99.99';
+        }else if(temp=='HTML Fundamentals'){
+            document.getElementById('head-name').innerHTML='HTML Fundamentals';
+            document.getElementById('img').src="imgs/1014.png";
+            document.getElementById('description').innerHTML='HTML Fundamentals: Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, eaque debitis. Non numquam quae blanditiis dicta. Deserunt illo, rerum esse quasi nemo consequuntur doloremque sunt minima repellat quae pariatur expedita.'
+            document.getElementById('dollar').innerHTML='$99.99';
+        }else if(temp=='PHP Course'){
+            document.getElementById('head-name').innerHTML='PHP Course';
+            document.getElementById('img').src="imgs/1059.png";
+            document.getElementById('description').innerHTML='PHP Course: Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, eaque debitis. Non numquam quae blanditiis dicta. Deserunt illo, rerum esse quasi nemo consequuntur doloremque sunt minima repellat quae pariatur expedita.'
+            document.getElementById('dollar').innerHTML='$99.99';
+        }else if(temp=='CSS Fundamentals'){
+            document.getElementById('head-name').innerHTML='CSS Fundamentals';
+            document.getElementById('img').src="imgs/1023.png";
+            document.getElementById('description').innerHTML='CSS Fundamentals: Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, eaque debitis. Non numquam quae blanditiis dicta. Deserunt illo, rerum esse quasi nemo consequuntur doloremque sunt minima repellat quae pariatur expedita.'
+            document.getElementById('dollar').innerHTML='$99.99';
+        }else if(temp=='Ruby Course'){
+            document.getElementById('head-name').innerHTML='Ruby Course';
+            document.getElementById('img').src="imgs/1081.png";
+            document.getElementById('description').innerHTML='Ruby Course: Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, eaque debitis. Non numquam quae blanditiis dicta. Deserunt illo, rerum esse quasi nemo consequuntur doloremque sunt minima repellat quae pariatur expedita.'
+            document.getElementById('dollar').innerHTML='$99.99';
+        }else if(temp=='jQuery Course'){
+            document.getElementById('head-name').innerHTML='jQuery Course';
+            document.getElementById('img').src="imgs/1082.png";
+            document.getElementById('description').innerHTML='jQuery Course: Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, eaque debitis. Non numquam quae blanditiis dicta. Deserunt illo, rerum esse quasi nemo consequuntur doloremque sunt minima repellat quae pariatur expedita.'
+            document.getElementById('dollar').innerHTML='$99.99';
+        }else if(temp=='Swift 4 Fundamentals'){
+            document.getElementById('head-name').innerHTML='Swift 4 Fundamentals';
+            document.getElementById('img').src="imgs/1075.png";
+            document.getElementById('description').innerHTML='Swift 4 Fundamentals: Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, eaque debitis. Non numquam quae blanditiis dicta. Deserunt illo, rerum esse quasi nemo consequuntur doloremque sunt minima repellat quae pariatur expedita.'
+            document.getElementById('dollar').innerHTML='$99.99';
+        }
+    </script>
+</body>
+</html>
+

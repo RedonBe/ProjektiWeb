@@ -1,0 +1,349 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+    font-size: 10px;
+    background-color: #f2f2f2;
+    font-family: sans-serif;
+}
+
+#header {
+    width: 100%;
+    overflow: hidden;
+    background-color: #3a464b;
+}
+
+.header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    margin: 25px auto;
+    width: 1000px;
+    position: relative;
+}
+
+.logo {
+    float: left;
+    overflow: hidden;
+}
+
+.logo a {
+    display: block;
+    height: 60px;
+    margin-bottom: -10px;
+    margin-left: 25px;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 230px;
+}
+
+a {
+    outline: none;
+}
+
+.logo a img{
+    height: 50px;
+}
+
+.navigation-menu {
+    float: right;
+    overflow: hidden;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.navigation-menu ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+.navigation-menu ul li {
+    float: left;
+    margin-left: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.navigation-menu ul li:hover {
+    background-color: #1abc9c;
+    border-radius: 5px;
+}
+
+.wrapper:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.navigation-menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.4em;
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.pageLayout {
+    min-height: 350px;
+}
+
+.wrapper {
+    margin: 25px auto;
+    width: 1000px;
+    position: relative;
+}
+
+.block {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+}
+
+h1 {
+    font-size: 2.4em;
+    color: #000;
+}
+
+#signin{
+    background-color: #1abc9c;
+    border-radius: 5px;
+}
+
+.dynamicPageInfo p {
+    color: #b4bbc2;
+    font-size: 1.4em;
+    line-height: 1.7;
+    margin-bottom: 15px;
+    margin-top: 35px;
+    color: #3a464b;
+}
+
+.dynamicPageInfo p a{
+    text-decoration: none;
+}
+
+.container h1{
+    text-align: center;
+    color: #1abc9c;
+    font-size: 2rem;
+}
+
+.forma{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first{
+    margin-top: 25px;
+}
+
+.second{
+    margin-top: 15px;
+}
+
+.third{
+    margin-top: 15px;
+}
+
+.contact-form-field {
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    outline: 0;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.forma form div label{
+    font-size: 20px;
+}
+
+#button {
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    letter-spacing: .1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background .25s ease-in-out;
+    font-size: 16px;
+    padding: 15px 50px;
+    background: #1abc9c;
+    color: #fff;
+    margin-top: 25px;
+    width: 160px;
+}
+
+
+input{
+    width: 500px;
+}
+
+
+#footer {
+    width: 100%;
+    background-color: #eaedf1;
+    overflow: hidden;
+}
+
+.footerTitle {
+    width: 100%;
+    background-color: #3a464b;
+    overflow: hidden;
+}
+
+.footerTitle p {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.8em;
+    padding: 20px;
+}
+
+#footer .footerContent {
+    margin-bottom: 0;
+}
+
+.socialCounts {
+    float: left;
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+.footerSocial {
+    overflow: hidden;
+    background-color: #fff;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    width: 320px;
+}
+
+.fab{
+    font-size: 37px;
+    padding-top: 20px;
+}
+
+.footerTwitter {
+    background-color: #29c0ac;
+    color: white;
+}
+
+.footerFacebook, .footerGooglePlus, .footerTwitter {
+    float: left;
+    overflow: hidden;
+    width: 80px;
+    height: 80px;
+}
+
+.footerSocial span {
+    color: #b4bbc2;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 2.1em;
+    margin-top: 25px;
+    text-align: center;
+    width: 200px;
+}
+
+.footerFacebook {
+    background-color: #24aa98;
+    color: white;
+}
+
+#footer .about {
+    float: right;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+#footer .about div {
+    margin-bottom: 15px;
+}
+
+.logoFooter {
+    background-position: -12px -8px;
+    width: 200px;
+    height: 55px;
+}
+
+.logoFooter img{
+    width: 200px;
+}
+
+#footer .about p {
+    font-weight: bold;
+    color: #383737;
+    font-size: 1.35em;
+}
+
+#footer .about address {
+    font-weight: 500;
+    color: #b4bbc2;
+    font-size: 1.35em;
+}
+
+#footer .about button {
+    color: #fff;
+    display: block;
+    border: none;
+    text-decoration: none;
+    width: 80px;
+    height: 36px;
+    border-radius: 6px;
+    background-color: #1abc9c;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button, input, textarea {
+    font-family: sans-serif;
+}
+
+.footerMenu {
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    width: 115px;
+}
+
+.footerMenu.Home #footerHome{
+    color: #383737;
+}
+
+.footerMenu ul {
+    list-style: none;
+}
+
+.footerMenu ul li {
+    margin-top: 10px;
+}
+
+.footerMenu ul li a:hover {
+    color: #92989e;
+}
+
+.footerMenu ul li a {
+    font-weight: bold;
+    color: #b4bbc2;
+    font-size: 1.35em;
+    text-decoration: none;
+}
+
+#footer .copyright {
+    text-align: center;
+    color: #555;
+    font-size: 12px;
+    padding: 20px 0;
+}
+
